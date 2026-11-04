@@ -1,0 +1,6 @@
+{
+  "name": "page-comments",
+  "version": "1.0.0",
+  "description": "Comment on a web page by ⌥-clicking it in your browser; each comment reaches the agent session as an event naming the element. Works in front of a dev server or on a folder of HTML.",
+  "runtime": "claude-code"
+}

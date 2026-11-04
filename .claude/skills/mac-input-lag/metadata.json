@@ -1,0 +1,6 @@
+{
+	"name": "mac-input-lag",
+	"version": "1.0.0",
+	"description": "Diagnose and fix macOS input lag: WindowServer load, leaked or slow event taps, stale Chrome GPU processes, memory pressure, busy containers, orphaned MCP servers.",
+	"runtime": "claude-code"
+}
