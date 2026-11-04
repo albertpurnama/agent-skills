@@ -26,6 +26,7 @@ A centralized repository for skills, helpers, and setup across all AI agents.
 | `github/` | Authenticated GitHub operations |
 | `implement-and-review/` | Loop-engineering pattern: implement → adversarial review (diff-only context, optional per-role model) → fix, via the Workflow tool. See [bun.com/blog/bun-in-rust](https://bun.com/blog/bun-in-rust#loops-that-write-review-code). |
 | `mac-input-lag/` | Diagnose and fix macOS input lag: WindowServer load, leaked keyboard event taps, stale Chrome GPU processes, memory pressure, busy containers. Asks before restarting anything, then re-measures. For intermittent lag, records actual input delay alongside a process timeline and reports what was running during each episode. |
+| `mac-memory/` | Where a Mac's RAM goes: memory by app, crediting MCP servers and child processes to the agent session or app that launched them. Records for hours in the background and reports spikes (what started or grew), possible leaks, swap and memory-pressure warnings as an HTML page. |
 
 ---
 

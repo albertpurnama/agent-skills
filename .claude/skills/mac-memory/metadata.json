@@ -1,0 +1,6 @@
+{
+  "name": "mac-memory",
+  "version": "1.0.0",
+  "description": "Where a Mac's RAM goes, by app and agent session, recorded over hours to find spikes, leaks, swap and memory pressure, with an HTML report.",
+  "runtime": "claude-code"
+}
